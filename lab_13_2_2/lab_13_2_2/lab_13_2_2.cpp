@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-// Макрос, який повертає -1 якщо число від'ємне, 0 - якщо нульове, 1 - якщо додатнє
+
 #define SIGN(x) (((x)<0)? "negative" :(((x)==0) ? "zero" : "positive"))
 #define EVEN_ODD(x) ((((x) % 2) == 0) ? "even" : "odd" )
 
